@@ -5,5 +5,5 @@ app = FastAPI()
 
 @app.get("/finger-print")
 async def get_finger_print():
-    await asyncio.sleep(0.2)
+    await asyncio.sleep(0.175)
     return {}
